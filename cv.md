@@ -13,5 +13,8 @@ I am a student at a technical university. I study programming languages, compute
 * **PHP MYSQL /** basic skills, one project implemented.
 ## Experience
 As part of my university studies, I implemented several educational projects in various programming languages and using different technologies. Examples can be found at the paragraph *"Code examples"*.
+## Education
+* **Codcademy:** *"Introduction to HTML"*
+* **Codcademy:** *"Learn CSS"*
 
 
