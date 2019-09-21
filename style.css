@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #b1cfc9;
+}
+p {
+    line-height: 1.5;
+}
+h3 {
+    margin-top: 15px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+h3::before, h3:after {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    height: 2px;
+    background: #000;
+    width: 15%;
+}
+h3::before {
+    margin-right: 20px;
+}
+h3::after {
+    margin-left: 20px;
+}
+main {
+    display: flex;
+    width: 1024px;
+    margin: 70px auto;
+    padding: 70px 20px;
+    background: #fff;
+    text-align: center;
+    color: #0e0e0f;
+    font-family: "Montserrat", sans-serif;
+    -webkit-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.75);
+}
+.left-block, .right-block {
+    width: 50%;
+}
+.left-block {
+    border-right: 2px solid #000;
+}
+.left-block h1 {
+    margin-top: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: rgb(83, 141, 60);
+}
+.first-name {
+    font-weight: 400;
+}
+.first-name::before, .first-name::after {
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    height: 2px;
+    background: #000;
+    width: 20px;
+    margin-right: 5px;
+}
+.left-block h2 {
+    margin-top: 10px;
+    letter-spacing: 4px;
+    color: #64a4c2;
+}
+.photo {  
+    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-clip: content-box;
+    background: url('avatar.jpg') -6px center/ cover no-repeat;
+    padding: 8px;
+    border: 2px solid black;
+}
+.contacts, .summary, .skills, .education, .english {
+    margin-top: 60px;
+}
+.contacts ol {
+    text-align: left;
+    width: 250px;
+    margin: 20px 60px;
+}
+li  {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.summary p {
+    text-align: center;
+    margin: 20px 60px;
+}
+.skills ul, .education ul, .code-examples ul {
+    text-align: left;
+    margin: 20px 60px;
+}
+.skills span, .education span, .english span  {
+    margin-right: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.right-block {
+    padding-left: 30px;
+}
+.experience p, .english p {
+    margin: 20px auto;
+}
+.english p {
+    width: 200px;
+}
