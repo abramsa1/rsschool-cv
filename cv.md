@@ -16,5 +16,6 @@ As part of my university studies, I implemented several educational projects in 
 ## Education
 * **Codcademy:** *"Introduction to HTML"*
 * **Codcademy:** *"Learn CSS"*
-
+## English
+*ENGLISH LEVEL - A2:* can read the text on a well-known topic and write a short note.
 
